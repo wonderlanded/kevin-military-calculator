@@ -1,0 +1,38 @@
+body {
+    background-color: #f5f7f9;
+}
+
+.container {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes load {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.container > div {
+    text-align: left;
+    animation: 1s ease-out 1s 1 load;
+}
+
+h1 {
+    font-size: 5em;
+    margin-top: 0;
+}
+
+h2 {
+    color: #444141a6 ;
+    margin-bottom: 0;
+}
